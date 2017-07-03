@@ -26,8 +26,8 @@ UKF::UKF() {
   n_aug_ = 7;
   n_sigma_ = 2*n_aug_ + 1;
   
-  // Use weighting parameters from the article of Julier and Uhlmann
-  W0_ = 1/3;
+  // Weight on the mean and sigma points scaling factor.
+  W0_ = -1.0/3.0;
   sigma_scale_ = sqrt(n_aug_/(1-W0_));
 
   // initial state vector
