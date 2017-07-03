@@ -1,6 +1,8 @@
-# Unscented Kalman Filter Project Starter Code
+# Unscented Kalman Filter Project 
 
 This is project 2 of term 2 of the Udacity Self-Driving Car Engineer Nanodegree Program.  The goal of this project is to use an unscented Kalman Fiter to estimate the state of a car given noisy lidar and radar measurements.   Udacity provides a simulator to test the code.
+
+Starter code for this project is given [here](https://github.com/udacity/CarND-Unscented-Kalman-Filter-Project).
 
 Here is a screenshot of my program at the end of the simulation.  
 <img src="./images/final_RMSE.png" width="400">
